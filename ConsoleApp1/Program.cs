@@ -93,11 +93,14 @@
 
             string Vardas = "Vardenis Pavardenis";
             int Amzius = 28;
+            string Pareigos = "Software Developer";
+            string Epastas = "johndoe@example.com";
+            string Tel = "+1 123-456-7890";
+
+            Console.WriteLine("Vardas: " + Vardas + "\nAmzius: " + Amzius + "\nPareigos: " + Pareigos + "\nE. pastas: " + Epastas + "\nTel: " + Tel);
 
 
-            //Task 7
-
-            //Task 8
+            
 
 
 
