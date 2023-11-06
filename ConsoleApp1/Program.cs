@@ -263,6 +263,11 @@ namespace ConsoleApp1
             Console.WriteLine(sentence.IndexOf('d'));
 
 
+            //Paskaita nr. 3
+
+
+
+
 
 
 
