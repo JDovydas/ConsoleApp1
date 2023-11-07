@@ -6,11 +6,11 @@ namespace CondinalIfs
     {
         static void Main(string[] args)
         {
-            /*
+           /* 
             int number = -1100;
             bool isAdmin = true;
                         
-
+            /*
             // Several if's to meet multiple criteria (treated as separate cases)
             
             if(number > 0) 
@@ -66,7 +66,7 @@ namespace CondinalIfs
             Console.WriteLine("Įveskite skaičių: ");
             int numberEntered = Convert.ToInt32(Console.ReadLine());
 
-            /*
+            
 
             if (numberEntered >= 100)
             {
@@ -114,11 +114,12 @@ namespace CondinalIfs
 
             */
 
+            /*
             
             //Task 2 A
 
             
-
+            
             Console.WriteLine("Enter the number");
             int numberEntered1 = Convert.ToInt32(Console.ReadLine());
             if (numberEntered1 % 2 == 0)
@@ -199,7 +200,7 @@ namespace CondinalIfs
             }
 
             
-            
+            /*
 
             int number = 150;
             bool isAdmin = false;
@@ -274,11 +275,7 @@ namespace CondinalIfs
                 Console.WriteLine(numberStrange);
             }
 
-
-            
-
-            
-
+                  
             //Task 7 A
 
             Console.WriteLine("Enter two numbers");
@@ -311,11 +308,11 @@ namespace CondinalIfs
             {
                 Console.WriteLine("All numbers are equal");
             }
-            else if (numb1 == numb2 || numb2 == numb3)
+            else if (numb1 == numb2 || numb2 == numb3 || numb1 == numb3)
             {
                 Console.WriteLine("Two numbers are equal");
             }
-            else if (numb1 != numb2 && numb2 != numb3)
+            else
             {
                 Console.WriteLine("None of the numbers are equal");
             }
@@ -374,12 +371,40 @@ namespace CondinalIfs
             }
 
             
-            
+
             //Task 10
 
-            string product1 = ""
+            string product1 = "bananas";
+            string product2 = "apelsinas";
+            string product3 = "ananasas";
 
+            int product1Price = 2;
+            int product2Price = 1;
+            int product3Price = 4;
 
+            Console.WriteLine("Please select 3 products");
+            var selection1 = Console.ReadLine();
+            var selection2 = Console.ReadLine();
+            var selection3 = Console.ReadLine();
+
+            if (selection1 == product1)
+
+            {
+                Console.WriteLine($"You selected {product1} and its price is {product1Price}");
+            }
+            if (selection2 == product2)
+            {
+                Console.WriteLine($"You selected {product2} and its price is {product2Price}");
+            }
+            if (selection3 == product3)
+            {
+                Console.WriteLine($"You selected {product3} and its price is {product3Price}");
+            }
+            else {
+                Console.WriteLine("Unknown products and unknown prices - Bye");
+            }
+
+            */
 
         }
     }
