@@ -6,9 +6,10 @@ namespace Lesson_4_Switches
     {
         static void Main(string[] args)
         {
-
+        
+         /*
             
-         /*   
+         /*
             int number = 0;
             //char symbol = 'A'
 
@@ -131,11 +132,11 @@ namespace Lesson_4_Switches
                     break;
             }
 
-            */
+            
 
             // Task 1 A
 
-            /*
+            
 
             Console.WriteLine("Input day of the week (1-7)");
             int dayInput = Convert.ToInt32(Console.ReadLine());
@@ -384,9 +385,9 @@ namespace Lesson_4_Switches
                     break;
             }
 
-            */
+           
 
-            /*
+            
 
             //Task 3 B
 
@@ -433,7 +434,7 @@ namespace Lesson_4_Switches
             }
 
         
-            */
+            
 
          //Task 3 B - updated version
 
@@ -486,7 +487,7 @@ namespace Lesson_4_Switches
 
             //Task 3 B (version1)
 
-            /*
+            
 
             Console.WriteLine("Please select one of the following actions: addition, subtraction, multiplication, division, squaring, root pulling");
             string action = Console.ReadLine();
@@ -530,8 +531,8 @@ namespace Lesson_4_Switches
 
             }
 
-
             */
+            
         }
 
     }

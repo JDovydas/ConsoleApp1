@@ -4,9 +4,9 @@ namespace CondinalIfs
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-           /* 
+        static void Main(string[] args) { 
+        
+           /*
             int number = -1100;
             bool isAdmin = true;
                         
