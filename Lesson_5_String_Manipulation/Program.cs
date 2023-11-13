@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System.Threading.Channels;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Lesson_5_String_Manipulation
 {
@@ -83,7 +84,7 @@ namespace Lesson_5_String_Manipulation
 
             */
 
-            /
+            /*
             //Task 1 A - version 1
 
             Console.WriteLine("Please enter the text");
@@ -91,7 +92,7 @@ namespace Lesson_5_String_Manipulation
             char[] textEnteredArray = textEntered.ToCharArray();
             textEnteredArray[0] = char.ToUpper(textEnteredArray[0]);
             Console.WriteLine(textEnteredArray);
-
+            */
 
 
             /*
@@ -138,6 +139,7 @@ namespace Lesson_5_String_Manipulation
             {
                 Console.WriteLine("Wrong input - 5 characters are needed");
             }
+
             //    char encoding = Convert.ToBase64CharArray.Console.ReadLine();
 
             //    char symbol1 = 'R';
@@ -268,7 +270,7 @@ namespace Lesson_5_String_Manipulation
 
             /*
              
-            //Task 3 B
+            //Task 3 A
 
             Console.WriteLine("Enter the word");
             string wordInput = Console.ReadLine();
@@ -288,7 +290,7 @@ namespace Lesson_5_String_Manipulation
 
             //Task 3 B
 
-            /
+            /*
 
             Console.WriteLine("Please enter a word");
             string inputTxt = Console.ReadLine();
@@ -323,7 +325,7 @@ namespace Lesson_5_String_Manipulation
 
             */
 
-            
+
 
             //Task 3 C
 
@@ -400,10 +402,59 @@ namespace Lesson_5_String_Manipulation
 
             Console.WriteLine($"Your total price is {sumustinioSuma}");
             Console.WriteLine($"Your chosen ingridients are {sumustinioIngridientai}");
+            
             */
 
+            // 5 
 
+            /*
 
+            Console.WriteLine("Enter the phone number");
+            string phone = Console.ReadLine();
+
+            if (phone.StartsWith("370"))
+            {
+                Console.WriteLine("This is a Lithuanian number");
+            }
+            else
+            {
+                Console.WriteLine("No information - non Lithuanian number");
+            }
+
+            Console.WriteLine("How many minutes you have been on the phone?");
+            int timeSpent = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Call to number: {phone}");
+            Console.WriteLine($"Call time: {timeSpent} minutes");
+            */
+            
+
+            
+
+            // Task 6
+
+            /*
+
+            Console.WriteLine("Interesting Game - please enter a sentence");
+            string yourSentence = Console.ReadLine();
+            Console.WriteLine("Write Yes if you wish to dring an interesting potion");
+            string yourChoice = Console.ReadLine();
+            int number = Convert.ToInt32(Console.ReadLine());
+
+            if (yourChoice == "Yes")
+            {
+                char[] yourSentenceArray = yourChoice.ToCharArray();
+                yourSentenceArray[0] = 'a';
+                yourSentenceArray[2] = 'z';
+                string afterChanges = new string(yourSentenceArray);
+                Console.WriteLine((afterChanges));
+            }
+            else
+            {
+                Console.WriteLine("No result - sentence too short");
+            }
+            
+            */
         }
     }
 }
