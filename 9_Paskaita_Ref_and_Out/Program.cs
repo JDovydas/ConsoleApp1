@@ -75,24 +75,29 @@ namespace _9_Paskaita_Ref_and_Out
             Console.WriteLine(originalNumber);
             */
             // Task 1.3
+            
+
+            //string variable = " kalnas";
+
             /*
 
-            string variable = " kalnas";
+            string variable = Console.ReadLine();
+
 
             TrimAndCapitalize(ref variable);
             Console.WriteLine(variable); 
+            
             */
-
             // Task 2.1
             
-             /*
+            /* 
             string firstName;
             string lastName;
 
             GetUserData(out string firstName, out string lastName);
             Console.WriteLine($"Name is {firstName}, last name is {lastName}");
-            
             */
+            
             // Task 2.2
             /*
 
@@ -116,6 +121,7 @@ namespace _9_Paskaita_Ref_and_Out
                     Console.WriteLine("Invalid input - enter a valid number");
                 }
             */
+            /*
 
             int number = 0;
             int input;
@@ -131,7 +137,7 @@ namespace _9_Paskaita_Ref_and_Out
             }
             Console.WriteLine($"Final input is: {number}");
 
-
+            */
         }
 
         
