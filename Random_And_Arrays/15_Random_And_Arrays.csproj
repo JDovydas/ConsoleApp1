@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Practice_2\2_Paskaita_Strings.csproj" />
-  </ItemGroup>
-
 </Project>

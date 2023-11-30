@@ -52,6 +52,12 @@ namespace _13_Paskaita_Multidimensional_Arrays
             }
             */
 
+            int[] array = { 1, 2, 3, 4, 5, 6, 7, 8 };
+
+            ReturnAverage(array);
+
+            Console.WriteLine(ReturnAverage(array));
+
             /*
             int[] initialArray = { 1, 3, 9, 2, 16 };
 
@@ -228,11 +234,11 @@ namespace _13_Paskaita_Multidimensional_Arrays
             */
 
             //Task 3.3
-
+            /*
             Console.WriteLine("Please enter how many animals you want to add: ");
             string inputStr = Console.ReadLine();
             if 
-
+            */
             /*
 
             Console.WriteLine("Enter the row");
@@ -333,7 +339,8 @@ namespace _13_Paskaita_Multidimensional_Arrays
             string[] wordArray = userSentence.Split(' ');
             string[] stringArray = new string[wordArray.Length];
             int lettersNeeded = 5;
-            int index = 0;
+            int 
+            = 0;
             foreach (string word in wordArray)
             {
                 if (word.Length > lettersNeeded)
@@ -579,7 +586,16 @@ namespace _13_Paskaita_Multidimensional_Arrays
 
         }
 
+        static double ReturnAverage(int[] array)
+        {
+            int sum = 0;
 
+            foreach (int item in array)
+            {
+                sum += item;
+            }
+            return (double)sum / array.Length;
+        }
 
 
 

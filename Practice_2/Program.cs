@@ -6,6 +6,20 @@ namespace Practice_2
     {
         static void Main(string[] args)
         {
+            /*
+            string s = "My name is Dovydas";
+            int myIndex = s.IndexOf("Dovydas");
+
+            string myName = s.Substring(myIndex);
+            string firstTwo = s.Substring(0,2);
+            Console.WriteLine(myIndex);
+            Console.WriteLine(myName);
+            Console.WriteLine(firstTwo);
+            string updated = s.Replace("Dovydas", "Kestutis");
+            Console.WriteLine(updated);
+            */
+
+            
             //Case1.1
             /*
             int no1 = 1;
