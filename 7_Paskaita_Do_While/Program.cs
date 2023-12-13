@@ -150,7 +150,7 @@ namespace _7_Paskaita_Do_While
 
             */
 
-            /*
+            
 
             //Pratimas 5.3 - number comparison (wit guidelines)
 
@@ -187,7 +187,7 @@ namespace _7_Paskaita_Do_While
             while (guessedNumber != randomInRange);
             Console.WriteLine($"Your guessed number {guessedNumber} is equal to a random number {randomInRange} - SUCCESS");
 
-            */
+            
 
             // Project 1 - Game
 

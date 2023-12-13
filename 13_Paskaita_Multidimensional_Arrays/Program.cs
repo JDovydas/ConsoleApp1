@@ -6,8 +6,10 @@ namespace _13_Paskaita_Multidimensional_Arrays
     internal class Program
     {
         static void Main(string[] args)
-        {   //                      [row, column]                           
-            /*int[,] matrix = new int[3, 3];
+        {  
+            /*
+            //                      [row, column]                           
+            int[,] matrix = new int[3, 3];
 
             matrix[0, 0] = 1;// 1   2   3
             matrix[0, 1] = 2;
@@ -51,25 +53,25 @@ namespace _13_Paskaita_Multidimensional_Arrays
                 Console.WriteLine();
             }
             */
-
+            /*
             int[] array = { 1, 2, 3, 4, 5, 6, 7, 8 };
 
             ReturnAverage(array);
 
             Console.WriteLine(ReturnAverage(array));
-
+            */
             /*
             int[] initialArray = { 1, 3, 9, 2, 16 };
 
             foreach (int number in initialArray)
             {
                 Console.WriteLine(number);
-
+            
             }
             */
 
             //Task 2.1
-            /*
+            
             
 
             Console.WriteLine("Enter the row");
@@ -97,18 +99,18 @@ namespace _13_Paskaita_Multidimensional_Arrays
                 }
                 Console.WriteLine();
             }
-            */
-            //Task 2.2
             /*
+            //Task 2.2
+            
             int[,] array = {
             {1, 2, 3, 4},
             {5, 6, 7, 8},
             {1, 9, 10, 11},
             {12, 13, 14, 1}
             };
-
+            
             FindAndDisplayRepeatedNumbers(array);
-            */
+            
             //Task 2.3
             /*
             string[,] array3 = {
@@ -118,7 +120,7 @@ namespace _13_Paskaita_Multidimensional_Arrays
             };
 
             FindAndDisplayRepeatedNames(array3);
-            */
+            
             //Task 2.4
 
             /*

@@ -1,4 +1,5 @@
-﻿using System.Runtime.ExceptionServices;
+﻿using System.Drawing;
+using System.Runtime.ExceptionServices;
 
 namespace _12_Paskaita_Arrays
 {
@@ -90,8 +91,22 @@ namespace _12_Paskaita_Arrays
             
             */
 
+            //My Exercise
 
+            string[] cards = {"Queen", "King"};
+            string[] colors = {"Black", "Red"};
 
+            int index = ReturnArrayLength(cards, colors);
+
+            string[] allCombinations = CombinationMethod(cards,colors, index);
+
+            foreach (string i in allCombinations)
+            {
+                Console.WriteLine(i);
+            }
+            
+            
+            //Console.WriteLine(combinations);
 
 
         }
@@ -179,7 +194,41 @@ namespace _12_Paskaita_Arrays
             //}
 
         }
+
+        static string[] CombinationMethod(string[] cards, string[] colors, int index)
+        {
+            string[] allCombinations = new string[index];
+            int counter = 0;
+
+            for (int i = 0; i < cards.Length; i++)
+            {
+                for (int j =  0; j < colors.Length; j++)
+                {
+                    allCombinations[counter] = colors[j] + " " + cards[i];
+                    counter++;
+                }
+            }
+            return allCombinations;         
+          
+        }
+
+        static int ReturnArrayLength(string[] cards, string[] colors)
+        {
+            int index = 0;
+            foreach (string card in cards)
+            {
+                foreach (string color in colors)
+                {
+                    index++;
+                }
+                    
+            }
+            return index;
+                
+
+        }
         
+
 
     }
 }

@@ -46,7 +46,7 @@ namespace Random_And_Arrays
 
             //6
 
-            RandomMatrixGenerator();
+            //RandomMatrixGenerator();
 
 
         }
@@ -144,7 +144,7 @@ namespace Random_And_Arrays
             return false;
 
         }
-
+        /*
         static int[,] RandomMatrixGenerator()
         {
             Random random = new Random();
@@ -157,11 +157,11 @@ namespace Random_And_Arrays
             int[,] matrix = new int[row, column];
 
 
-
+        
 
 
         }
-
+        */
 
     }
 }
