@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "18_Paskaita_Objects": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}

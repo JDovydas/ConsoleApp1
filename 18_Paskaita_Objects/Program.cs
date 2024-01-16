@@ -58,7 +58,7 @@ namespace _18_Paskaita_Objects
                 Console.WriteLine(book.Title);
 
             }
-            */
+            
 
             //2.2
 
@@ -77,9 +77,9 @@ namespace _18_Paskaita_Objects
 
 
             //3.1
+            /*
 
-
-            List<Cat> cats = new()
+            List < Cat > cats = new()
             {
                 new("Rainys", 1, "Grey"),
                 new("Rudis", 2, "Yellow"),

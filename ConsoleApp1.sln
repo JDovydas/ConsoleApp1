@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Paskaita_.NET", "ConsoleApp1\1_Paskaita_.NET.csproj", "{3DAE1E53-9785-4E88-8D43-7F33FE7231C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Paskaita_.NET", "ConsoleApp1\01_Paskaita_.NET.csproj", "{3DAE1E53-9785-4E88-8D43-7F33FE7231C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Paskaita_CondinalIfs", "CondinalIfs\3_Paskaita_CondinalIfs.csproj", "{268F7B54-70CA-4807-BA04-27D258D7E413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Paskaita_CondinalIfs", "CondinalIfs\03_Paskaita_CondinalIfs.csproj", "{268F7B54-70CA-4807-BA04-27D258D7E413}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Paskaita_Switches", "Lesson_4_Switches\4_Paskaita_Switches.csproj", "{12CB6150-68E0-4AA2-8C19-2CD232D3394D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Paskaita_Switches", "Lesson_4_Switches\04_Paskaita_Switches.csproj", "{12CB6150-68E0-4AA2-8C19-2CD232D3394D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Paskaita_String_Manipulation", "Lesson_5_String_Manipulation\5_Paskaita_String_Manipulation.csproj", "{5BF2A8C1-572E-4504-8F9E-746A58AE54A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Paskaita_String_Manipulation", "Lesson_5_String_Manipulation\05_Paskaita_String_Manipulation.csproj", "{5BF2A8C1-572E-4504-8F9E-746A58AE54A3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice", "Practice\Practice.csproj", "{4A04F019-4E31-47E9-857D-A78440A4FD40}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6A_Paskaita_WhileLoop", "6_Paskaita_WhileLoop\6A_Paskaita_WhileLoop.csproj", "{DE5461DC-90A7-4578-A112-F67C71CED142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06A_Paskaita_WhileLoop", "6_Paskaita_WhileLoop\06A_Paskaita_WhileLoop.csproj", "{DE5461DC-90A7-4578-A112-F67C71CED142}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6B_Paskaita_Do_While", "7_Paskaita_Do_While\6B_Paskaita_Do_While.csproj", "{2C5530AE-E094-4FD9-884B-C9CEA4D4D3A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06B_Paskaita_Do_While", "7_Paskaita_Do_While\06B_Paskaita_Do_While.csproj", "{2C5530AE-E094-4FD9-884B-C9CEA4D4D3A9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_Paskaita_Methods", "7_Paskaita_Methods\7_Paskaita_Methods.csproj", "{F4CB950E-FE7C-478C-BD00-EBD39B9728B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Paskaita_Methods", "7_Paskaita_Methods\07_Paskaita_Methods.csproj", "{F4CB950E-FE7C-478C-BD00-EBD39B9728B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_Paskaita_Ref_and_Out", "9_Paskaita_Ref_and_Out\9_Paskaita_Ref_and_Out.csproj", "{B7657FAB-A0E7-459D-9141-BEE3B2256BA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Paskaita_Ref_and_Out", "9_Paskaita_Ref_and_Out\09_Paskaita_Ref_and_Out.csproj", "{B7657FAB-A0E7-459D-9141-BEE3B2256BA6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Paskaita_Strings", "Practice_2\2_Paskaita_Strings.csproj", "{CC01433D-8162-4466-978C-F880C07659B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Paskaita_Strings", "Practice_2\02_Paskaita_Strings.csproj", "{CC01433D-8162-4466-978C-F880C07659B2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Paskaita_Debug_StringBuilder", "11_Paskaita_Debug_StringBuilder\11_Paskaita_Debug_StringBuilder.csproj", "{52F64E29-6913-49D4-A5B4-5B638F47B91C}"
 EndProject
@@ -45,7 +45,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_Paskaita_Draft", "17_Pas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryGame_2", "TryGame_2\TryGame_2.csproj", "{8E826806-BFDC-49B5-B806-69D3B4196DC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_Paskaita_Objects", "18_Paskaita_Objects\18_Paskaita_Objects.csproj", "{78DA0D51-C886-408C-924B-8B80E682D871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_Paskaita_Objects", "18_Paskaita_Objects\18_Paskaita_Objects.csproj", "{78DA0D51-C886-408C-924B-8B80E682D871}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_Class methods", "19_Class methods\19_Class methods.csproj", "{D158CCF6-1808-4C46-BBB6-07D13DB9E5E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_Inheritance_Virtual", "20_Inheritance_Virtual\20_Inheritance_Virtual.csproj", "{0BCE2264-AA40-408A-A5FD-97BCB9B4A356}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_Paskaita_ Abstractions", "21_Paskaita_ Abstractions\21_Paskaita_ Abstractions.csproj", "{6AC70489-FE5A-4598-9396-D591F95BC805}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_Paskaita_ Accessibility", "22_Paskaita_ Accessibility\22_Paskaita_ Accessibility.csproj", "{3BADDACB-70C2-4691-96F4-1BB6B74B3170}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23_Paskaita_Streams", "23_Paskaita_Streams\23_Paskaita_Streams.csproj", "{49A1E1FD-46C3-4A9A-995E-D225E225A159}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2EA5C63-4923-4687-9922-0ECBE031C314}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24_Paskaita_Generics", "24_Paskaita_Generics\24_Paskaita_Generics.csproj", "{DC5FF580-6844-4A1E-A6C3-E6625B436348}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25_Paskaita_Generics_P2", "25_Paskaita_Generics_P2\25_Paskaita_Generics_P2.csproj", "{68AAD161-D9E0-42EC-B411-F322F03FF808}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_Paskaita_Generics_P3", "26_Paskaita_Generics_P3\26_Paskaita_Generics_P3.csproj", "{80FC8E4F-1635-45E4-BD98-FD3FFABCEE1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_Paskaita_Exception_Handling", "27_Paskaita_Exception_Handling\27_Paskaita_Exception_Handling.csproj", "{D41602D3-8350-4F41-9A15-621C2423378F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_Paskaita_Extension_methods", "28_Paskaita_Extension_methods\28_Paskaita_Extension_methods.csproj", "{940BB105-2323-416F-A430-F553CE49251B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_Paskaita_DelegatesAndAnonymous_Linq_Lambda", "29_Paskaita_DelegatesAndAnonymous\29_Paskaita_DelegatesAndAnonymous_Linq_Lambda.csproj", "{158F53CC-65C7-4991-A4E0-99A0877AF54C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_Interfaces_IComparer", "30_Interfaces_IComparer\30_Interfaces_IComparer.csproj", "{82ACF768-FA18-490F-8FB3-2B1C02F48E39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +167,54 @@ Global
 		{78DA0D51-C886-408C-924B-8B80E682D871}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78DA0D51-C886-408C-924B-8B80E682D871}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78DA0D51-C886-408C-924B-8B80E682D871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D158CCF6-1808-4C46-BBB6-07D13DB9E5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D158CCF6-1808-4C46-BBB6-07D13DB9E5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D158CCF6-1808-4C46-BBB6-07D13DB9E5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D158CCF6-1808-4C46-BBB6-07D13DB9E5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCE2264-AA40-408A-A5FD-97BCB9B4A356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCE2264-AA40-408A-A5FD-97BCB9B4A356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCE2264-AA40-408A-A5FD-97BCB9B4A356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCE2264-AA40-408A-A5FD-97BCB9B4A356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC70489-FE5A-4598-9396-D591F95BC805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC70489-FE5A-4598-9396-D591F95BC805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC70489-FE5A-4598-9396-D591F95BC805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC70489-FE5A-4598-9396-D591F95BC805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BADDACB-70C2-4691-96F4-1BB6B74B3170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BADDACB-70C2-4691-96F4-1BB6B74B3170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BADDACB-70C2-4691-96F4-1BB6B74B3170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BADDACB-70C2-4691-96F4-1BB6B74B3170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A1E1FD-46C3-4A9A-995E-D225E225A159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A1E1FD-46C3-4A9A-995E-D225E225A159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A1E1FD-46C3-4A9A-995E-D225E225A159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A1E1FD-46C3-4A9A-995E-D225E225A159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5FF580-6844-4A1E-A6C3-E6625B436348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5FF580-6844-4A1E-A6C3-E6625B436348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5FF580-6844-4A1E-A6C3-E6625B436348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5FF580-6844-4A1E-A6C3-E6625B436348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AAD161-D9E0-42EC-B411-F322F03FF808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AAD161-D9E0-42EC-B411-F322F03FF808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AAD161-D9E0-42EC-B411-F322F03FF808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AAD161-D9E0-42EC-B411-F322F03FF808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FC8E4F-1635-45E4-BD98-FD3FFABCEE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FC8E4F-1635-45E4-BD98-FD3FFABCEE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FC8E4F-1635-45E4-BD98-FD3FFABCEE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FC8E4F-1635-45E4-BD98-FD3FFABCEE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D41602D3-8350-4F41-9A15-621C2423378F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41602D3-8350-4F41-9A15-621C2423378F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41602D3-8350-4F41-9A15-621C2423378F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41602D3-8350-4F41-9A15-621C2423378F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940BB105-2323-416F-A430-F553CE49251B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940BB105-2323-416F-A430-F553CE49251B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940BB105-2323-416F-A430-F553CE49251B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940BB105-2323-416F-A430-F553CE49251B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158F53CC-65C7-4991-A4E0-99A0877AF54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158F53CC-65C7-4991-A4E0-99A0877AF54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158F53CC-65C7-4991-A4E0-99A0877AF54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158F53CC-65C7-4991-A4E0-99A0877AF54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82ACF768-FA18-490F-8FB3-2B1C02F48E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82ACF768-FA18-490F-8FB3-2B1C02F48E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82ACF768-FA18-490F-8FB3-2B1C02F48E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82ACF768-FA18-490F-8FB3-2B1C02F48E39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
