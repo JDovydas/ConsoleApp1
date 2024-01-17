@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _30_Interfaces_IComparer
 {
-    internal class Carp : IAnimal, IFish
+    public class Carp : IAnimal, IFish, IComparable<Carp>
     {
         public string Name { get; set; }
 
@@ -24,6 +24,11 @@ namespace _30_Interfaces_IComparer
         public void Swim()
         {
             Console.WriteLine($"Carp '{Name}' is swimming around))");
+        }
+
+        public int CompareTo(Carp other)
+        {
+            return string.Compare(this.Name, other.Name, StringComparison.Ordinal);
         }
     }
 }

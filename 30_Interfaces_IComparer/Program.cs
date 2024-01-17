@@ -65,6 +65,7 @@
                 new Carp("Karelis"),
             };
 
+
             Dog dog1 = new Dog("Kurkis");
             dog1.Eat();
             dog1.GiveBirth();
@@ -99,6 +100,28 @@
 
 
             }
+
+            //List<IComparable> allAnimals = new List<IComparable>
+            //{
+            //    new Dog { "Buddy" },
+            //    new Cat { Name = "Whiskers" },
+            //    new Bass { Name = "Fishy" },
+            //    new Carp { Name = "Goldie" }
+            //};
+
+            //List<IComparable> allAnimals1 = new List<IComparable>
+            //{
+            //    new Dog ("Rudis"),
+            //    new Dog("Pirskis"),
+            //    new Cat("Pilkis"),
+            //    new Bass("Zerutis"),
+            //    new Carp("Karelis"),
+            //};
+
+            //var animalComparer = new List<IAnimal> { new Animal("Rikis")}
+
+
+
 
         }
     }

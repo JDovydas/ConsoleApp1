@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _30_Interfaces_IComparer
 {
-    public class Dog : IAnimal, IMammal
+    public class Dog : IAnimal, IMammal, IComparable<Dog>
     {
 
         public string Name { get; set; }
@@ -25,5 +25,12 @@ namespace _30_Interfaces_IComparer
         {
             Console.WriteLine($"The dog '{Name}' gave birth to a puppy");
         }
+
+        public int CompareTo(Dog other)
+        {
+            return string.Compare(this.Name, other.Name, StringComparison.Ordinal);
+        }
+
+
     }
 }

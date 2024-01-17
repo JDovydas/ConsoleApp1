@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _30_Interfaces_IComparer
 {
-    public class Cat : IAnimal, IMammal
+    public class Cat : IAnimal, IMammal, IComparable<Cat>
     {
         public string Name { get; set; }
 
@@ -17,12 +17,18 @@ namespace _30_Interfaces_IComparer
 
         public void Eat()
         {
-            Console.WriteLine($"The cat '{Name}'is eating");
+            Console.WriteLine($"The cat '{Name}' is eating");
         }
 
         public void GiveBirth()
         {
             Console.WriteLine($"The cat '{Name}' gave birth to a kitten");
         }
+
+        public int CompareTo(Cat other)
+        {
+            return string.Compare(this.Name, other.Name, StringComparison.Ordinal);
+        }
+
     }
 }

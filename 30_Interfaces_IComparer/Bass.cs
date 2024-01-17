@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _30_Interfaces_IComparer
 {
-    internal class Bass : IAnimal, IFish
+    public class Bass : IAnimal, IFish, IComparable<Bass>
     {
 
         public string Name { get; set; }
@@ -25,5 +25,11 @@ namespace _30_Interfaces_IComparer
         {
             Console.WriteLine($"The bass '{Name}' is swimming around))");
         }
+
+        public int CompareTo(Bass other)
+        {
+            return string.Compare(this.Name, other.Name, StringComparison.Ordinal);
+        }
+
     }
 }
