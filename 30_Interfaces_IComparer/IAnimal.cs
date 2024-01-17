@@ -8,6 +8,7 @@ namespace _30_Interfaces_IComparer
 {
     public interface IAnimal
     {
+
         public void Eat();
 
 

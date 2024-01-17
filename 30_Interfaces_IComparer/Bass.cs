@@ -8,14 +8,22 @@ namespace _30_Interfaces_IComparer
 {
     internal class Bass : IAnimal, IFish
     {
+
+        public string Name { get; set; }
+
+        public Bass(string name)
+        {
+            Name = name;
+        }
+
         public void Eat()
         {
-            Console.WriteLine("The bass is eating");
+            Console.WriteLine($"The bass '{Name}' is eating");
         }
 
         public void Swim()
         {
-            Console.WriteLine("The bass is swimming around))");
+            Console.WriteLine($"The bass '{Name}' is swimming around))");
         }
     }
 }
