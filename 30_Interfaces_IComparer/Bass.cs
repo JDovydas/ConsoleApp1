@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace _30_Interfaces_IComparer
 {
-    internal class Bass : IAnimal, IMammal
+    internal class Bass : IAnimal, IFish
     {
         public void Eat()
         {
             Console.WriteLine("The bass is eating");
         }
 
-        public void GiveBirth()
+        public void Swim()
         {
-            Console.WriteLine("The bass is about to give birth to another bass :))");
+            Console.WriteLine("The bass is swimming around))");
         }
     }
 }
