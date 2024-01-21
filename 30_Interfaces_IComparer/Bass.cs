@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _30_Interfaces_IComparer
 {
-    public class Bass : IAnimal, IFish, IComparable<Bass>
+    public class Bass : IAnimal, IFish
     {
 
         public string Name { get; set; }
@@ -32,4 +32,16 @@ namespace _30_Interfaces_IComparer
         }
 
     }
+
+    public class BassComparer : IComparer<Bass>
+    {
+        public int Compare(Bass x, Bass y)
+        {
+            return string.Compare(x.Name, y.Name);
+
+        }
+
+
+    }
+
 }

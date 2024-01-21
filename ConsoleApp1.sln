@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_Paskaita_Extension_metho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_Paskaita_DelegatesAndAnonymous_Linq_Lambda", "29_Paskaita_DelegatesAndAnonymous\29_Paskaita_DelegatesAndAnonymous_Linq_Lambda.csproj", "{158F53CC-65C7-4991-A4E0-99A0877AF54C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_Interfaces_IComparer", "30_Interfaces_IComparer\30_Interfaces_IComparer.csproj", "{82ACF768-FA18-490F-8FB3-2B1C02F48E39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_Interfaces_IComparer", "30_Interfaces_IComparer\30_Interfaces_IComparer.csproj", "{82ACF768-FA18-490F-8FB3-2B1C02F48E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_ATM", "31_ATM\31_ATM.csproj", "{EE5EB411-FF90-45F7-82D1-14ACCA772BF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -215,6 +217,10 @@ Global
 		{82ACF768-FA18-490F-8FB3-2B1C02F48E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82ACF768-FA18-490F-8FB3-2B1C02F48E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82ACF768-FA18-490F-8FB3-2B1C02F48E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5EB411-FF90-45F7-82D1-14ACCA772BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5EB411-FF90-45F7-82D1-14ACCA772BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5EB411-FF90-45F7-82D1-14ACCA772BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5EB411-FF90-45F7-82D1-14ACCA772BF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

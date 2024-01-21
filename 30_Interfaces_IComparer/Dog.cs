@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace _30_Interfaces_IComparer
 {
-    public class Dog : IAnimal, IMammal, IComparable<Dog>
+    public class Dog : IAnimal, IMammal
     {
 
         public string Name { get; set; }
@@ -33,4 +34,14 @@ namespace _30_Interfaces_IComparer
 
 
     }
+
+    internal class DogComparer : IComparer<Dog>
+    {
+        public int Compare(Dog x, Dog y)
+        {
+            return string.Compare(x.Name, y.Name);
+
+        }
+    }
+
 }

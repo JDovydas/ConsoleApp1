@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _30_Interfaces_IComparer
 {
-    public class Cat : IAnimal, IMammal, IComparable<Cat>
+    public class Cat : IAnimal, IMammal
     {
         public string Name { get; set; }
 
@@ -31,4 +31,17 @@ namespace _30_Interfaces_IComparer
         }
 
     }
+
+
+    internal class CatComparer : IComparer<Cat>
+    {
+
+        public int Compare(Cat x, Cat y)
+        {
+            return string.Compare(x.Name, y.Name);
+        }
+
+    }
+
+
 }

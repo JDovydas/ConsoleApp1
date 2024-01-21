@@ -31,7 +31,7 @@
             //myCar.Refuel(-10);
 
             /////Task 2
-            /////
+            ///
             //BmwCar myBmw = new BmwCar("BMW3", 35, 60, true);
             //myBmw.Drive();
             //myBmw.Refuel(70);
@@ -56,14 +56,16 @@
             //Slides 15
             //Task 1.
 
-            List<IAnimal> animals = new List<IAnimal>
-            {
-                new Dog ("Rudis"),
-                new Dog("Pirskis"),
-                new Cat("Pilkis"),
-                new Bass("Zerutis"),
-                new Carp("Karelis"),
-            };
+            //List<IAnimal> animals = new List<IAnimal>
+            //{
+            //    new Dog ("Rudis"),
+            //    new Dog("Pirskis"),
+            //    new Cat("Pilkis"),
+            //    new Bass("Zerutis"),
+            //    new Carp("Karpelis"),
+            //    new Carp("Albinas"),
+            //    new Carp("Karosas")
+            //};
 
 
             Dog dog1 = new Dog("Kurkis");
@@ -79,50 +81,87 @@
             bass1.Eat();
             bass1.Swim();
 
-            Carp carp1 = new Carp("Car-peace");
-            carp1.Eat();
-            carp1.Swim();
+            //Carp carp1 = new Carp("Car-peace");
+            //carp1.Eat();
+            //carp1.Swim();
+            //Carp carp2 = new Carp("Albinas");
+            //Carp carp3 = new Carp("Geras karpis");
+            //var carps = new List<Carp> { carp1, carp2, carp3 };
 
 
 
-            foreach (IAnimal animal in animals)
-            {
-                animal.Eat();
+            //foreach (IAnimal animal in animals)
+            //{
+            //    animal.Eat();
 
-                if (animal is IMammal mammal)
-                {
-                    mammal.GiveBirth();
-                }
-                else if (animal is IFish fish)
-                {
-                    fish.Swim();
-                }
+            //    if (animal is IMammal mammal)
+            //    {
+            //        mammal.GiveBirth();
+            //    }
+            //    else if (animal is IFish fish)
+            //    {
+            //        fish.Swim();
+            //    }
 
 
-            }
+            //}
 
             //List<IComparable> allAnimals = new List<IComparable>
-            //{
-            //    new Dog { "Buddy" },
-            //    new Cat { Name = "Whiskers" },
-            //    new Bass { Name = "Fishy" },
-            //    new Carp { Name = "Goldie" }
-            //};
+            //                {
+            //                    new Dog { Name = "Buddy" },
+            //                    new Cat { Name = "Whiskers" },
+            //                    new Bass { Name = "Fishy" },
+            //                    new Carp { Name = "Goldie" }
+            //                };
 
             //List<IComparable> allAnimals1 = new List<IComparable>
+            //            {
+            //                new Dog ("Rudis"),
+            //                new Dog("Pirskis"),
+            //                new Cat("Pilkis"),
+            //                new Bass("Zerutis"),
+            //                new Carp("Karelis"),
+            //            };
+
+            //var animalComparer = new List<IAnimal> { new Animal("Rikis") };
+
+
+            Carp carp1 = new Carp("Car-peace");
+            Carp carp2 = new Carp("Albinas");
+            Carp carp3 = new Carp("Geras karpis");
+            var carps = new List<Carp> { carp1, carp2, carp3 };
+
+            var carpComparer = new CarpComparer();
+
+
+            carps.Sort(carpComparer);
+
+            foreach (var carp in carps)
+            {
+                Console.WriteLine(carp.Name);
+            }
+
+            //    //Task 2
+
+            //List<IPolygon> polygons = new List<IPolygon>
+            //    {
+            //        new Triangle { Base = 4, Height = 3 },
+            //        new Quadrilateral { Side1 = 4, Side2 = 6 },
+            //        new Pentagon { Side = 8 },
+            //        new Hexagon { Side = 7 }
+            //    };
+
+            ////polygons.Sort();
+
+            //Console.WriteLine("Sorted Polygons by Area:");
+            //foreach (var polygon in polygons)
             //{
-            //    new Dog ("Rudis"),
-            //    new Dog("Pirskis"),
-            //    new Cat("Pilkis"),
-            //    new Bass("Zerutis"),
-            //    new Carp("Karelis"),
-            //};
-
-            //var animalComparer = new List<IAnimal> { new Animal("Rikis")}
-
-
+            //    Console.WriteLine($"Area: {polygon.GetArea()}");
+            //}
 
 
         }
+
+
     }
 }
