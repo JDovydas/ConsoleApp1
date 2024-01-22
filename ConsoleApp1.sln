@@ -73,7 +73,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_Paskaita_DelegatesAndAno
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_Interfaces_IComparer", "30_Interfaces_IComparer\30_Interfaces_IComparer.csproj", "{82ACF768-FA18-490F-8FB3-2B1C02F48E39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_ATM", "31_ATM\31_ATM.csproj", "{EE5EB411-FF90-45F7-82D1-14ACCA772BF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_ATM", "31_ATM\31_ATM.csproj", "{EE5EB411-FF90-45F7-82D1-14ACCA772BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32_Paskaita_Enum_Tasks", "32_Paskaita_Enum_Tasks\32_Paskaita_Enum_Tasks.csproj", "{B0571AFE-C1AA-4C15-AEB6-481AEB074024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -221,6 +223,10 @@ Global
 		{EE5EB411-FF90-45F7-82D1-14ACCA772BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE5EB411-FF90-45F7-82D1-14ACCA772BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE5EB411-FF90-45F7-82D1-14ACCA772BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0571AFE-C1AA-4C15-AEB6-481AEB074024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0571AFE-C1AA-4C15-AEB6-481AEB074024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0571AFE-C1AA-4C15-AEB6-481AEB074024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0571AFE-C1AA-4C15-AEB6-481AEB074024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

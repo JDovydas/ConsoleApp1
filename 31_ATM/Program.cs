@@ -6,37 +6,55 @@ namespace _31_ATM
     {
         static void Main(string[] args)
         {
+
             var currentUser = "";
 
-            Console.WriteLine(Guid.NewGuid());
+            var uniqueClientReference = "";
+
+            //Console.WriteLine(Guid.NewGuid());
 
             string input1 = "";
             do
             {
-                Console.WriteLine("Welcome to the Automated Teller Machine");
-                Console.WriteLine("Please choose the action: ");
-
-                Console.WriteLine("1. Register");
-                Console.WriteLine("2. Login");
-                Console.WriteLine("3. Exit");
-
-                input1 = Console.ReadLine();
-
-                if (string.IsNullOrEmpty(currentUser))
+                if (string.IsNullOrEmpty(uniqueClientReference))
                 {
+
+
+                    Console.WriteLine("Welcome to the Automated Teller Machine");
+                    Console.WriteLine("Please choose the action: ");
+
+                    Console.WriteLine("1. Register");
+                    Console.WriteLine("2. Login");
+                    Console.WriteLine("3. Exit");
+
+                    input1 = Console.ReadLine();
+
+
+
                     switch (input1)
                     {
                         case "1":
-                            Console.WriteLine("RegisterUser");
-                            //RegisterUser();
+                            Console.WriteLine("Register User");
+                            Console.Write("Please enter your name: ");
+                            string clientName = Console.ReadLine();
+                            Console.Write("Please enter your surname: ");
+                            string clientSurname = Console.ReadLine();
+
+                            uniqueClientReference = CardHolder.RegisterUser(clientName, clientSurname);
                             break;
                         case "2":
                             Console.WriteLine("LoginUser");
+                            Console.Write("Please enter your reference: ");
+                            string userReference = Console.ReadLine();
+                            if (CardHolder.LoginUser(userReference))
+                            {
+                                currentUser = userReference;
+                            }
+                            break;
                             //LoginUser();
                             break;
                         case "3":
                             Console.WriteLine("Exit");
-                            //Exit();
                             break;
                         default:
                             Console.WriteLine("Wrong choice, try again");
@@ -98,7 +116,7 @@ namespace _31_ATM
 
             }
             while (input1 != "3");
-
+            Console.WriteLine("Goodbye");
 
 
 

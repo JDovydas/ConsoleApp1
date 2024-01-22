@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _31_ATM
 {
-    internal class ClientInformation
+    internal class TransactionHistory
     {
     }
 }
