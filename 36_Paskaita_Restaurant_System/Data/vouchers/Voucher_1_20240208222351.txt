@@ -1,0 +1,7 @@
+--- Voucher ---
+Table Number: 1
+Order Date/Time: 2024-02-08 22:23:51
+Total Amount: 33,97 €
+--- Order Items ---
+Spaghetti - Quantity: 1, Price: 12,99 €
+Pizza - Quantity: 2, Price: 10,49 €

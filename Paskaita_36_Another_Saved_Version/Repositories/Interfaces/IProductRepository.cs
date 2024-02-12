@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _31_ATM
+namespace Paskaita_36_Another_Saved_Version.Repositories.Interfaces
 {
-    internal class TransactionHistory
+    internal interface IProductRepository
     {
     }
 }

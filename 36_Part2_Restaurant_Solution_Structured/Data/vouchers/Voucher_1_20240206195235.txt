@@ -1,0 +1,6 @@
+--- Voucher ---
+Table Number: 1
+Order Date/Time: 2024-02-06 19:52:35
+Total Amount: 12,99 €
+--- Order Items ---
+Spaghetti Carbonara - Quantity: 1, Price: 12,99 €

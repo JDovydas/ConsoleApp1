@@ -1,0 +1,6 @@
+--- Voucher ---
+Table Number: 1
+Order Date/Time: 2024-02-08 22:38:14
+Total Amount: 129,90 €
+--- Order Items ---
+Spaghetti - Quantity: 10, Price: 12,99 €

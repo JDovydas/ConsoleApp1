@@ -22,7 +22,7 @@ namespace Practice
                 Console.WriteLine(combination);
             }
 
-            int maxLetters= MaxLetters(combinations);
+            int maxLetters = MaxLetters(combinations);
 
             int numberOfLongersWords = CountofLongestWords(combinations, maxLetters);
 
@@ -35,7 +35,7 @@ namespace Practice
             }
 
 
-            
+
 
             //int NumberofMaxLetterWords = CountofMaxLettersWords()
 
@@ -524,13 +524,13 @@ namespace Practice
         static int MaxLetters(string[] combinations)
         {
             int maxLetters = 0;
-            foreach(string name in combinations)
+            foreach (string name in combinations)
             {
                 int currentValue = name.Length;
                 if (currentValue > maxLetters)
                 {
-                    maxLetters= currentValue;
-                }  
+                    maxLetters = currentValue;
+                }
             }
             return maxLetters;
 
@@ -568,7 +568,13 @@ namespace Practice
 
         }
 
-
+        //public static void SaveUserToFile(CardHolder cardHolder)
+        //{
+        //    using (StreamWriter writer = new StreamWriter("Guid.txt", true))
+        //    {
+        //        writer.WriteLine($"{cardHolder.CardNumber},{cardHolder.Name},{cardHolder.Surname},{cardHolder.Password},{cardHolder.Account.Balance}");
+        //    }
+        //}
 
 
     }

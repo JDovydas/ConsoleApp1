@@ -1,0 +1,102 @@
+﻿--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-06 18:40:56
+Total Amount: 129,90 €
+--- Order Items ---
+Spaghetti Carbonara - Quantity: 10, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 2
+Order Date/Time: 2024-02-06 18:50:12
+Total Amount: 84,98 €
+--- Order Items ---
+Margherita Pizza - Quantity: 2, Price: 10,49 €
+kefir - Quantity: 3, Price: 10,00 €
+barsciai - Quantity: 3, Price: 3,00 €
+Bread - Quantity: 5, Price: 5,00 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-06 18:55:10
+Total Amount: 12,99 €
+--- Order Items ---
+Spaghetti Carbonara - Quantity: 1, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 3
+Order Date/Time: 2024-02-06 19:03:21
+Total Amount: 3,00 €
+--- Order Items ---
+banana - Quantity: 3, Price: 1,00 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-06 19:11:56
+Total Amount: 25,98 €
+--- Order Items ---
+Spaghetti Carbonara - Quantity: 2, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-06 19:18:42
+Total Amount: 25,98 €
+--- Order Items ---
+Spaghetti Carbonara - Quantity: 2, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-06 19:20:07
+Total Amount: 25,98 €
+--- Order Items ---
+Spaghetti Carbonara - Quantity: 2, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-06 19:52:35
+Total Amount: 12,99 €
+--- Order Items ---
+Spaghetti Carbonara - Quantity: 1, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-06 20:26:48
+Total Amount: 12,99 €
+--- Order Items ---
+Spaghetti Carbonara - Quantity: 1, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-06 20:29:12
+Total Amount: 6,00 €
+--- Order Items ---
+Kebabas - Quantity: 1, Price: 6,00 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-06 20:30:43
+Total Amount: 12,00 €
+--- Order Items ---
+Kebabas - Quantity: 2, Price: 6,00 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-06 20:31:19
+Total Amount: 6,00 €
+--- Order Items ---
+Kebabas - Quantity: 1, Price: 6,00 €
+------------------------------
+--- Order Details ---
+Table Number: 2
+Order Date/Time: 2024-02-06 20:33:10
+Total Amount: 29,90 €
+--- Order Items ---
+Chalva - Quantity: 3, Price: 2,00 €
+Grilled Chicken Salad - Quantity: 2, Price: 11,95 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-07 17:50:04
+Total Amount: 25,98 €
+--- Order Items ---
+Spaghetti Carbonara - Quantity: 2, Price: 12,99 €
+------------------------------

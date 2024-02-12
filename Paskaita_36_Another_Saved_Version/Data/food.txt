@@ -1,0 +1,9 @@
+﻿Spaghetti Carbonara; 12,99
+Margherita Pizza; 10,49
+Grilled Chicken Salad; 11,95
+Beef Burger; 9,99
+Caesar Salad;
+Kefir; 10
+Kebabas; 6
+Chalva; 2
+Sokoladas; 1

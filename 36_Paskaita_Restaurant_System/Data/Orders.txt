@@ -1,0 +1,65 @@
+﻿
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-08 20:17:52
+Total Amount: 55,95 €
+--- Order Items ---
+Spaghetti - Quantity: 2, Price: 12,99 €
+Burger - Quantity: 3, Price: 9,99 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-08 20:24:38
+Total Amount: 49,88 €
+--- Order Items ---
+Spaghetti - Quantity: 2, Price: 12,99 €
+Chicken Wings - Quantity: 2, Price: 11,95 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-08 21:50:19
+Total Amount: 111,78 €
+--- Order Items ---
+Spaghetti - Quantity: 1, Price: 12,99 €
+Pizza - Quantity: 3, Price: 10,49 €
+Pizza - Quantity: 3, Price: 10,49 €
+Chicken Wings - Quantity: 3, Price: 11,95 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-08 21:52:22
+Total Amount: 25,98 €
+--- Order Items ---
+Spaghetti - Quantity: 1, Price: 12,99 €
+Spaghetti - Quantity: 1, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-08 22:23:51
+Total Amount: 33,97 €
+--- Order Items ---
+Spaghetti - Quantity: 1, Price: 12,99 €
+Pizza - Quantity: 2, Price: 10,49 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-08 22:29:43
+Total Amount: 25,98 €
+--- Order Items ---
+Spaghetti - Quantity: 2, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-08 22:38:14
+Total Amount: 129,90 €
+--- Order Items ---
+Spaghetti - Quantity: 10, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-02-11 21:07:25
+Total Amount: 25,98 €
+--- Order Items ---
+Spaghetti - Quantity: 1, Price: 12,99 €
+Spaghetti - Quantity: 1, Price: 12,99 €
+------------------------------

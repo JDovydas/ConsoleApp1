@@ -1,0 +1,9 @@
+﻿Spaghetti; 12,99
+Pizza; 10,49
+Chicken Wings; 11,95
+Burger; 9,99
+Salad; 7,69
+Cola; 1,99
+Still Water; 1,59
+Apple Juice; 1,99
+
