@@ -44,7 +44,7 @@ namespace _43_Paskaita_Exam_Databases
                 //departmentRepository.CreateDepartment(department2);
 
 
-                //2.2 Add students/lectures to an existing "new" department created in 2.1.
+                //2.2 Add students/lectures to an existing department (to the one created in 2.1)
 
                 //var lecture3 = new Lecture() { Name = "Film Studies" };
 
@@ -83,23 +83,23 @@ namespace _43_Paskaita_Exam_Databases
 
                 //5.1 Transfer the student to another department(bonus points if the student's lectures are also changed).
 
-                var existingStudent = context.Students.FirstOrDefault(s => s.Name == "John Deer");
-                var oldDepartment = context.Departments.FirstOrDefault(d => d.Name == "Faculty of Information Technology");
-                var newDepartment = context.Departments.FirstOrDefault(d => d.Name == "Faculty of Arts");
+                //var existingStudent = context.Students.FirstOrDefault(s => s.Name == "John Deer");
+                //var oldDepartment = context.Departments.FirstOrDefault(d => d.Name == "Faculty of Information Technology");
+                //var newDepartment = context.Departments.FirstOrDefault(d => d.Name == "Faculty of Arts");
 
-                if (existingStudent != null && oldDepartment != null && newDepartment != null)
-                {
-                    studentRepository.TransferStudentToAnotherDepartment(existingStudent, newDepartment);
-                    Console.WriteLine($"Student {existingStudent.Name} transferred from {oldDepartment.Name} to {newDepartment.Name} department.");
-                }
-                else
-                {
-                    Console.WriteLine("Student or department does not exist.");
-                }
+                //if (existingStudent != null && oldDepartment != null && newDepartment != null)
+                //{
+                //    studentRepository.TransferStudentToAnotherDepartment(existingStudent, newDepartment);
+                //    Console.WriteLine($"Student {existingStudent.Name} transferred from {oldDepartment.Name} to {newDepartment.Name} department.");
+                //}
+                //else
+                //{
+                //    Console.WriteLine("Student or department does not exist.");
+                //}
 
                 //5.2 Update Student information: remove all lectures belonging to oldDepartment and assign the lectures belonging to newDepartment
 
-                studentRepository.StudentToHaveOnlyNewDepartmentLecturesAssigned(existingStudent, newDepartment);
+                //studentRepository.StudentToHaveOnlyNewDepartmentLecturesAssigned(existingStudent, newDepartment);
 
 
                 //6. Display all students in the department.
