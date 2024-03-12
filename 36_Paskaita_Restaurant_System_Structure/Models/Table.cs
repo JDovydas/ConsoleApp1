@@ -8,7 +8,7 @@ namespace _36_Paskaita_Restaurant_System_Structure.Models
 {
     internal class Table
     {
-        public int TableNumber { get; set; } // add to the list 10 different tables & number of seats for each of them
+        public int TableNumber { get; set; }
         public int NumberOfSeats { get; set; }
         public bool IsOccupied { get; set; }
 

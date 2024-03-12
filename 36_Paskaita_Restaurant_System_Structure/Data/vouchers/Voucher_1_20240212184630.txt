@@ -1,0 +1,6 @@
+--- Voucher ---
+Table Number: 1
+Order Date/Time: 2024-02-12 18:46:30
+Total Amount: 29,97 €
+--- Order Items ---
+Burger - Quantity: 3, Price: 9,99 €

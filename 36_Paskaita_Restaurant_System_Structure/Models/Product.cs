@@ -8,6 +8,7 @@ namespace _36_Paskaita_Restaurant_System_Structure.Models
 {
     internal class Product
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
 
@@ -19,7 +20,6 @@ namespace _36_Paskaita_Restaurant_System_Structure.Models
             Price = price;
 
         }
-
         public Product(string name, decimal price, int quantity)
         {
             Name = name;

@@ -94,6 +94,7 @@ namespace _36_Paskaita_Restaurant_System_Structure
 
         public void AddNewProduct()
         {
+            using var dbContext = new OrderContext();
             Console.WriteLine("Enter the product name: ");
             string productName = Console.ReadLine();
             Console.WriteLine("Enter the product price in Eur: ");
@@ -107,10 +108,10 @@ namespace _36_Paskaita_Restaurant_System_Structure
                 Console.WriteLine("Invalid price - enter a valid number");
             }
 
-            updateProductFile(productName, productPrice);
+            UpdateProductFile(productName, productPrice);
         }
 
-        public void updateProductFile(string productName, decimal productPrice)
+        public void UpdateProductFile(string productName, decimal productPrice)
         {
             try
             {
@@ -402,8 +403,6 @@ namespace _36_Paskaita_Restaurant_System_Structure
             emailMessage.Body = emailBody;
 
             Console.WriteLine($"Voucher is being sent to the client - email address: {emailAddress}");
-
-
 
             try
             {

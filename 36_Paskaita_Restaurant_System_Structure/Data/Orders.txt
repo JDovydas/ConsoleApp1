@@ -1,8 +1,22 @@
 ﻿--- Order Details ---
-Table Number: 1
-Order Date/Time: 2024-02-12 17:50:45
-Total Amount: 38,97 €
+Table Number: 4
+Order Date/Time: 2024-02-12 19:21:05
+Total Amount: 29,16 €
 --- Order Items ---
 Spaghetti - Quantity: 2, Price: 12,99 €
+Still Water - Quantity: 2, Price: 1,59 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-03-02 22:57:54
+Total Amount: 12,99 €
+--- Order Items ---
 Spaghetti - Quantity: 1, Price: 12,99 €
+------------------------------
+--- Order Details ---
+Table Number: 1
+Order Date/Time: 2024-03-03 00:23:38
+Total Amount: 0,00 €
+--- Order Items ---
+ - Quantity: 9, Price: 0,00 €
 ------------------------------

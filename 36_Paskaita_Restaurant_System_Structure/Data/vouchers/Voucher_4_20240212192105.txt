@@ -1,0 +1,7 @@
+--- Voucher ---
+Table Number: 4
+Order Date/Time: 2024-02-12 19:21:05
+Total Amount: 29,16 €
+--- Order Items ---
+Spaghetti - Quantity: 2, Price: 12,99 €
+Still Water - Quantity: 2, Price: 1,59 €
