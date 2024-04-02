@@ -13,8 +13,8 @@ namespace _43_Paskaita_Exam_Databases.Models
         public int DepartmentId { get; set; }
         public string Name { get; set; }
 
-        public virtual List<Student> Students { get; set; }
+        public virtual List<Student> Students { get; set; } = new List<Student>();
 
-        public virtual List<Lecture> Lectures { get; set; }
+        public virtual List<Lecture> Lectures { get; set; } = new List<Lecture>();
     }
 }

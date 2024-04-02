@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _43_Paskaita_Exam_Databases.Repository.Interfaces
 {
-    internal interface IStudentRepository
+    public interface IStudentRepository ////internal
     {
         public void CreateStudent(Student student);
         public void CreateStudentAndAssignToDepartmentAndLectures(Student student, Department department, List<Lecture> lectures);

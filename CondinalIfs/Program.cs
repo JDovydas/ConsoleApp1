@@ -4,219 +4,222 @@ namespace CondinalIfs
 {
     internal class Program
     {
-        static void Main(string[] args) { 
-        
-           /*
-            int number = -1100;
-            bool isAdmin = true;
-                        
-            /*
-            // Several if's to meet multiple criteria (treated as separate cases)
-            
-            if(number > 0) 
-            {
-                Console.WriteLine("Number is positive");
-            }
+        static void Main(string[] args)
+        {
 
-            if(number >= 100) 
-            {
-                Console.WriteLine("The number 100 or more");
-            }
+
+            int number = -100;
+            bool isAdmin = true;
+
+
+            // Several if's to meet multiple criteria (treated as separate cases)
+
+            //if(number > 0) 
+            //{
+            //    Console.WriteLine("Number is positive");
+            //}
+
+            //if(number >= 100) 
+            //{
+            //    Console.WriteLine("The number 100 or more");
+            //}
 
             // Several if's to meet multiple criteria - nesting is used
 
 
-            if (number > 0)
-            {
-                Console.WriteLine("The number is positive");
-            }
-            else if (number >= 100)
-            {
-                Console.WriteLine("The number is 100 or more");
-            }
-            else if (number <= -100)
-            {
-                Console.WriteLine("The number is -100 or less");
-                if (number <= -1000 && isAdmin)
-                {
-                    number = 0;
-                    Console.WriteLine("The number is set to 0");
-                }
+            //if (number > 0)
+            //{
+            //    Console.WriteLine("The number is positive");
+            //}
+            //else if (number >= 100)
+            //{
+            //    Console.WriteLine("The number is 100 or more");
+            //}
+            //else if (number <= -100)
+            //{
+            //    Console.WriteLine("The number is -100 or less");
+            //    if (number <= -1000 && isAdmin)
+            ////    {
+            ////        number = 0;
+            ////        Console.WriteLine("The number is set to 0");
+            ////    }
 
 
-            }
-            else if (number == 0)
-            {
-                Console.WriteLine("The number is 0");
-            }
-            else if (number == 0)
-            {
-                Console.WriteLine("The number is 0");
-            }
-            else
-            {
-                Console.WriteLine("The number is negative");
-            }
+            ////}
+            ////else if (number == 0)
+            ////{
+            ////    Console.WriteLine("The number is 0");
+            ////}
+            ////else if (number == 0)
+            ////{
+            ////    Console.WriteLine("The number is 0");
+            ////}
+            ////else
+            ////{
+            ////    Console.WriteLine("The number is negative");
+            ////}
 
-            Console.WriteLine("THIS IS THE END OF OUR APPLICATION");
-
-            
-            //Task 1 A
-
-            Console.WriteLine("Įveskite skaičių: ");
-            int numberEntered = Convert.ToInt32(Console.ReadLine());
-
-            
-
-            if (numberEntered >= 100)
-            {
-                Console.WriteLine("The number is greater than 100");
-            }
-            else
-            {
-                Console.WriteLine("The number is less than 100");
-            }
-
-            //Task 1 B
-
-            Console.WriteLine("Enter the day number");
-            int dayNumberEntered = Convert.ToInt32(Console.ReadLine());
-
-            if (dayNumberEntered == 1)
-            {
-                Console.WriteLine("Monday");
-            }
-            else if (dayNumberEntered == 2)
-            {
-                Console.WriteLine("Tuesday");
-            }
-            else if (dayNumberEntered == 3)
-            {
-                Console.WriteLine("Wednesday");
-            }
-            else if (dayNumberEntered == 4)
-            {
-                Console.WriteLine("Thursday");
-            }
-            else if (dayNumberEntered == 5)
-            {
-                Console.WriteLine("Friday");
-            }
-            else if (dayNumberEntered == 6)
-            {
-                Console.WriteLine("Saturday");
-            }
-            else if (dayNumberEntered == 7)
-            {
-                Console.WriteLine("Sunday");
-            }
-            else Console.WriteLine("Incorrect day number");
-
-            */
-
-            /*
-            
-            //Task 2 A
-
-            
-            
-            Console.WriteLine("Enter the number");
-            int numberEntered1 = Convert.ToInt32(Console.ReadLine());
-            if (numberEntered1 % 2 == 0)
-            {
-                Console.WriteLine("The number is even");
-            }
-
-            else if (numberEntered1 % 5 == 0)
-            {
-                Console.WriteLine("The number is divisible by 5"); 
-            }
-
-            else Console.WriteLine("Number does not meet any conditions");
-            
-
-            //Task 2 B
-
-            Console.WriteLine("Enter the temperature");
-            int temperature = Convert.ToInt32(Console.ReadLine());
-            if (temperature < 0)
-            {
-                Console.WriteLine("Cold");
-            }
-
-            else if (temperature >= 0 && temperature <= 20)
-            {
-                Console.WriteLine("Cool");
-            }
-
-            else if (temperature > 20)
-            {
-                Console.WriteLine("Hot");
-            }
-
-            
+            ////Console.WriteLine("THIS IS THE END OF OUR APPLICATION");
 
 
-            //Task 3 A
+            ////Task 1 A
 
-            Console.WriteLine("Enter the time");
-            int wakeUpTime = Convert.ToInt32(Console.ReadLine());
-            if (wakeUpTime < 12 && wakeUpTime > 0 )
-            {
-                Console.WriteLine("Good day!");
-            }
+            //Console.WriteLine("Įveskite skaičių: ");
 
-            else if (wakeUpTime > 12 && wakeUpTime < 18)
-            {
-                Console.WriteLine("Good afternoon!");
-            }
-
-            else if (wakeUpTime > 18 && wakeUpTime < 24)
-            {
-                Console.WriteLine("Good evening!");
-            }
-
-            
-
-            //Task 3 B
-
-            string myPass = "namas";
-
-            Console.WriteLine("Enter the password");
-            string password = Console.ReadLine();
-            if (password == myPass)
-            {
-                Console.WriteLine("You have successfully logged in");
-            }
-
-            else if (password == "Mellon")
-            {
-                Console.WriteLine("You have successfully logged in");
-            }
-
-            else if (password == "01101001 01101110")
-            {
-                Console.WriteLine("Hacked..");
-            }
-
-            
-            /*
-
-            int number = 150;
-            bool isAdmin = false;
-
-            if (number >=50 && number <= 199) 
-            {
-                Console.WriteLine(number);
-            }
-            // is the number more or eaqual to 50 and number less or eaqual to 200 OR number is equal to 100 or is not Admin
-            if ((number >=50 && number <= 200) || number == 100 || !isAdmin)
-            {
-                Console.WriteLine(number);
-            }
+            //int numberEntered = 0;
+            ////int numberEntered = Convert.ToInt32(Console.ReadLine());
 
 
-            
+
+            ////if (numberEntered >= 100)
+            ////{
+            ////    Console.WriteLine("The number is greater than 100");
+            ////}
+            ////else
+            ////{
+            ////    Console.WriteLine("The number is less than 100");
+            ////}
+
+            ////Task 1 B
+
+            //Console.WriteLine("Enter the day number");
+            //int dayNumberEntered = Convert.ToInt32(Console.ReadLine());
+
+            //if (dayNumberEntered == 1)
+            //{
+            //    Console.WriteLine("Monday");
+            //}
+            //else if (dayNumberEntered == 2)
+            //{
+            //    Console.WriteLine("Tuesday");
+            //}
+            //else if (dayNumberEntered == 3)
+            //{
+            //    Console.WriteLine("Wednesday");
+            //}
+            //else if (dayNumberEntered == 4)
+            //{
+            //    Console.WriteLine("Thursday");
+            //}
+            //else if (dayNumberEntered == 5)
+            //{
+            //    Console.WriteLine("Friday");
+            //}
+            //else if (dayNumberEntered == 6)
+            //{
+            //    Console.WriteLine("Saturday");
+            //}
+            //else if (dayNumberEntered == 7)
+            //{
+            //    Console.WriteLine("Sunday");
+            //}
+            //else Console.WriteLine("Incorrect day number");
+
+
+
+
+
+            ////Task 2 A
+
+
+
+            //Console.WriteLine("Enter the number");
+            //int numberEntered1 = Convert.ToInt32(Console.ReadLine());
+            //if (numberEntered1 % 2 == 0)
+            //{
+            //    Console.WriteLine("The number is even");
+            //}
+
+            //else if (numberEntered1 % 5 == 0)
+            //{
+            //    Console.WriteLine("The number is divisible by 5");
+            //}
+
+            //else Console.WriteLine("Number does not meet any conditions");
+
+
+            ////Task 2 B
+
+            //Console.WriteLine("Enter the temperature");
+            //int temperature = Convert.ToInt32(Console.ReadLine());
+            //if (temperature < 0)
+            //{
+            //    Console.WriteLine("Cold");
+            //}
+
+            //else if (temperature >= 0 && temperature <= 20)
+            //{
+            //    Console.WriteLine("Cool");
+            //}
+
+            //else if (temperature > 20)
+            //{
+            //    Console.WriteLine("Hot");
+            //}
+
+
+
+
+            ////Task 3 A
+
+            //Console.WriteLine("Enter the time");
+            //int wakeUpTime = Convert.ToInt32(Console.ReadLine());
+            //if (wakeUpTime < 12 && wakeUpTime > 0)
+            //{
+            //    Console.WriteLine("Good day!");
+            //}
+
+            //else if (wakeUpTime > 12 && wakeUpTime < 18)
+            //{
+            //    Console.WriteLine("Good afternoon!");
+            //}
+
+            //else if (wakeUpTime > 18 && wakeUpTime < 24)
+            //{
+            //    Console.WriteLine("Good evening!");
+            //}
+
+
+
+            ////Task 3 B
+
+            //string myPass = "namas";
+
+            //Console.WriteLine("Enter the password");
+            //string password = Console.ReadLine();
+            //if (password == myPass)
+            //{
+            //    Console.WriteLine("You have successfully logged in");
+            //}
+
+            //else if (password == "Mellon")
+            //{
+            //    Console.WriteLine("You have successfully logged in");
+            //}
+
+            //else if (password == "01101001 01101110")
+            //{
+            //    Console.WriteLine("Hacked..");
+            //};
+
+
+            ///*
+
+            //int number = 150;
+            //bool isAdmin = false;
+
+            //if (number >=50 && number <= 199) 
+            //{
+            //    Console.WriteLine(number);
+            //}
+            //// is the number more or eaqual to 50 and number less or eaqual to 200 OR number is equal to 100 or is not Admin
+            //if ((number >=50 && number <= 200) || number == 100 || !isAdmin)
+            //{
+            //    Console.WriteLine(number);
+            //}
+
+
+
 
 
             //Task 4
@@ -235,24 +238,24 @@ namespace CondinalIfs
             {
                 Console.WriteLine("You are eligible for the Senior Citizen promotion");
             }
-            
-            
+
+
 
             //Task 5
 
 
             Console.WriteLine("Enter the number of years");
             int years = Convert.ToInt32(Console.ReadLine());
-            
+
             if ((years % 4 == 0 && years % 100 != 0) || years % 400 == 0)
             {
                 Console.WriteLine("This is a leap year");
             }
             else Console.WriteLine("This is not a leap year");
 
-            
 
-            
+
+
             //Task 6
 
             Console.WriteLine("Enter the number of years");
@@ -275,7 +278,7 @@ namespace CondinalIfs
                 Console.WriteLine(numberStrange);
             }
 
-                  
+
             //Task 7 A
 
             Console.WriteLine("Enter two numbers");
@@ -295,10 +298,10 @@ namespace CondinalIfs
                 Console.WriteLine("Neither number is positive");
             }
 
-            
+
             //Task 7 B
 
-            
+
             Console.WriteLine("Enter three numbers");
             int numb1 = Convert.ToInt32(Console.ReadLine());
             int numb2 = Convert.ToInt32(Console.ReadLine());
@@ -317,23 +320,23 @@ namespace CondinalIfs
                 Console.WriteLine("None of the numbers are equal");
             }
 
-            
 
-            
+
+
             //Task 8 A
             Console.WriteLine("Enter three numbers");
             int a = Convert.ToInt32(Console.ReadLine());
             int b = Convert.ToInt32(Console.ReadLine());
             int c = Convert.ToInt32(Console.ReadLine());
 
-            if (a >= 0 &&  b >= 0 || a >= 0 && b >= 0 || b >= 0 && c >= 0 || a >= 0 && b >= 0 &&  c >= 0)
+            if (a >= 0 && b >= 0 || a >= 0 && b >= 0 || b >= 0 && c >= 0 || a >= 0 && b >= 0 && c >= 0)
             {
                 int result = a + b + c;
                 Console.WriteLine(result);
             }
             else Console.WriteLine("Could not calculate sum");
 
-                      
+
 
             //Task 8 B
             Console.WriteLine("Enter the year and month");
@@ -347,15 +350,15 @@ namespace CondinalIfs
             else if (month == "June" || month == "July" || month == "August")
             {
                 Console.WriteLine("Hot period");
-            }    
+            }
             else Console.WriteLine("Medium period month");
 
-            
+
 
 
             //Task 9
 
-            
+
             Console.WriteLine("Enter three numbers");
             int length1 = Convert.ToInt32(Console.ReadLine());
             int length2 = Convert.ToInt32(Console.ReadLine());
@@ -370,7 +373,7 @@ namespace CondinalIfs
                 Console.WriteLine("Cannot form a triangle");
             }
 
-            
+
 
             //Task 10
 
@@ -400,11 +403,12 @@ namespace CondinalIfs
             {
                 Console.WriteLine($"You selected {product3} and its price is {product3Price}");
             }
-            else {
+            else
+            {
                 Console.WriteLine("Unknown products and unknown prices - Bye");
             }
 
-            */
+
 
         }
     }

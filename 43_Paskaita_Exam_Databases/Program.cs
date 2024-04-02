@@ -11,9 +11,9 @@ namespace _43_Paskaita_Exam_Databases
             using (var context = new UniversityContext())
             {
 
-                IDepartmentRepository departmentRepository = new DepartmentRepository(context);
-                ILectureRepository lectureRepository = new LectureRepository(context);
-                IStudentRepository studentRepository = new StudentRepository(context);
+                //IDepartmentRepository departmentRepository = new DepartmentRepository(context);
+                //ILectureRepository lectureRepository = new LectureRepository(context);
+                //IStudentRepository studentRepository = new StudentRepository(context);
 
                 //Exercise no.1
 
@@ -63,7 +63,7 @@ namespace _43_Paskaita_Exam_Databases
                 //}
 
 
-                //3.Create a lecture and assign it to a department.
+                // 3.Create a lecture and assign it to a department.
 
                 //Department existingDepartment = context.Departments.FirstOrDefault(d => d.Name == "Faculty of Arts");
 

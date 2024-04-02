@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace _43_Paskaita_Exam_Databases.Repository
 {
-    internal class StudentRepository : IStudentRepository
+    public class StudentRepository : IStudentRepository //internal
     {
         private readonly UniversityContext _context;
 
@@ -30,13 +30,30 @@ namespace _43_Paskaita_Exam_Databases.Repository
         {
             var existingDepartment = _context.Departments.FirstOrDefault(d => d.DepartmentId == department.DepartmentId);
             if (existingDepartment != null)
+
             {
                 student.Department = existingDepartment;
-                student.Lectures.AddRange(lectures);
+
+                // Add lectures to the student only if they don't already exist in the collection
+                foreach (var lecture in lectures)
+                {
+                    if (!student.Lectures.Any(l => l.Id == lecture.Id))
+                    {
+                        student.Lectures.Add(lecture);
+                    }
+                }
+
                 _context.Students.Add(student);
                 _context.SaveChanges();
-
             }
+
+            //{
+            //    student.Department = existingDepartment;
+            //    student.Lectures.AddRange(lectures);
+            //    _context.Students.Add(student);
+            //    _context.SaveChanges();
+
+            //}
         }
 
         public void TransferStudentToAnotherDepartment(Student student, Department newDepartment)

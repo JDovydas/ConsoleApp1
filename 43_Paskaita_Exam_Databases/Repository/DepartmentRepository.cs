@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace _43_Paskaita_Exam_Databases.Repository
 {
-    internal class DepartmentRepository : IDepartmentRepository
+    public class DepartmentRepository : IDepartmentRepository //internal
     {
         private readonly UniversityContext _context;
 
@@ -47,6 +47,13 @@ namespace _43_Paskaita_Exam_Databases.Repository
             }
 
             _context.SaveChanges();
+        }
+
+        public Department GetDepartmentByName(string name)
+        {
+            var result = _context.Departments.FirstOrDefault(d => d.Name == name);
+            return result;
+
         }
 
 

@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace _43_Paskaita_Exam_Databases.Repository.Interfaces
 {
-    internal interface IDepartmentRepository
+    public interface IDepartmentRepository //private
     {
         public void AddStudentsAndLecturesToExistingDepartment(List<Student> students, List<Lecture> lectures, Department department);
         public void CreateDepartment(Department department);
+
+        public Department GetDepartmentByName(string name);
 
     }
 }

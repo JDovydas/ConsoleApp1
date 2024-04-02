@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace _43_Paskaita_Exam_Databases.Repository
 {
-    internal class LectureRepository : ILectureRepository
+    public class LectureRepository : ILectureRepository //internal
     {
 
         private readonly UniversityContext _context;
@@ -31,7 +31,7 @@ namespace _43_Paskaita_Exam_Databases.Repository
             var existingDepartment = _context.Departments.FirstOrDefault(d => d.DepartmentId == department.DepartmentId);
             if (existingDepartment != null)
             {
-                var existingLecture = existingDepartment.Lectures.FirstOrDefault(l => l.Name == lecture.Name);
+                var existingLecture = existingDepartment.Lectures?.FirstOrDefault(l => l.Name == lecture.Name);
                 if (existingLecture == null)
                 {
                     existingDepartment.Lectures.Add(lecture);

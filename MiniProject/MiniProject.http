@@ -1,0 +1,12 @@
+@MiniProject_HostAddress = https://localhost:7260
+
+
+###
+
+GET {{MiniProject_HostAddress}}/product
+
+###
+
+GET {{MiniProject_HostAddress}}/product
+
+###

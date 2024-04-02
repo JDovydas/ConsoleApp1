@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _43_Paskaita_Exam_Databases.Repository.Interfaces
 {
-    internal interface ILectureRepository
+    public interface ILectureRepository //internal
     {
         public void CreateLecture(Lecture lecture);
         public void CreateLectureAndAssignToDepartment(Lecture lecture, Department department);
