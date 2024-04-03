@@ -155,7 +155,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiProjectNew", "WebApiP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{0F911267-6DF2-4E9B-A990-E6005C6EB47A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProject", "MiniProject\MiniProject.csproj", "{9AD3F70E-D51C-49D7-94AE-EB217DCA4B2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniProject", "MiniProject\MiniProject.csproj", "{9AD3F70E-D51C-49D7-94AE-EB217DCA4B2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallApiTask", "SmallApiTask\SmallApiTask.csproj", "{57ABE4CB-5906-4ADA-82FE-2EDCB079EE83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -447,6 +449,10 @@ Global
 		{9AD3F70E-D51C-49D7-94AE-EB217DCA4B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AD3F70E-D51C-49D7-94AE-EB217DCA4B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AD3F70E-D51C-49D7-94AE-EB217DCA4B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57ABE4CB-5906-4ADA-82FE-2EDCB079EE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ABE4CB-5906-4ADA-82FE-2EDCB079EE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ABE4CB-5906-4ADA-82FE-2EDCB079EE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ABE4CB-5906-4ADA-82FE-2EDCB079EE83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -523,6 +529,7 @@ Global
 		{4A363877-A165-4DC2-91DD-143240EDE991} = {CCE6724A-2099-445A-BECD-BFBF006D59AD}
 		{0F911267-6DF2-4E9B-A990-E6005C6EB47A} = {CCE6724A-2099-445A-BECD-BFBF006D59AD}
 		{9AD3F70E-D51C-49D7-94AE-EB217DCA4B2A} = {CCE6724A-2099-445A-BECD-BFBF006D59AD}
+		{57ABE4CB-5906-4ADA-82FE-2EDCB079EE83} = {CCE6724A-2099-445A-BECD-BFBF006D59AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDD6FA89-BCD7-45A1-AF2F-0230E7D92E58}

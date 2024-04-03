@@ -23,7 +23,7 @@ namespace MiniProject.Repositories
 
             if (_productData.Products.Any(p => p.Id == product.Id))
             {
-                throw new MyCustomException("Product with the same ID already exists"); //SameIdException
+                throw new MyCustomException.SameIdException("Product with the same ID already exists"); //SameIdException
             }
             if (product == null)
             {
@@ -41,7 +41,8 @@ namespace MiniProject.Repositories
                 throw new ArgumentException("Product price must be greater than zero.", nameof(product.Price));
             }
 
-            product.Id = _productData.Products.Count + 1;
+            //product.Id = _productData.Products.Count + 1;
+            product.Id = _productData.Products.OrderBy(p => p.Id).Last().Id + 1;
             //Do not allow user to state the ID if it is auto-added
             _productData.Products.Add(product);
         }
