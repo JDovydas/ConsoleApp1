@@ -7,11 +7,11 @@ namespace SmallApiTask.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class SafetyCarsController : ControllerBase
+    public class CarController : ControllerBase
     {
         private readonly ICarService _carService;
 
-        public SafetyCarsController(ICarService carService)
+        public CarController(ICarService carService)
         {
             _carService = carService;
         }
@@ -19,7 +19,7 @@ namespace SmallApiTask.Controllers
         [HttpGet("GetAllCars")]
         public IActionResult GetAll()
         {
-            var cars = _carService.GetAll();
+            var cars = _carService.GetAllCars();
             return Ok(cars);
         }
 
@@ -32,6 +32,7 @@ namespace SmallApiTask.Controllers
 
         [HttpPost("AddNewCar")]
         public IActionResult AddNewCar([FromBody] Car car)
+        //public IActionResult AddNewCar(Car car)
         {
             _carService.AddNewCar(car);
             return Ok();
