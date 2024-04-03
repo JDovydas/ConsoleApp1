@@ -20,7 +20,7 @@ namespace SmallApiTask
 
             builder.Services.AddSingleton<ICarData, CarData>();
             builder.Services.AddScoped<ICarRepository, CarRepository>();
-            builder.Services.AddScoped<ISafetyCarService, CarService>();
+            builder.Services.AddScoped<ICarService, CarService>();
 
             var app = builder.Build();
 

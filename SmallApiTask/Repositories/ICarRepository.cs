@@ -5,9 +5,9 @@ namespace SmallApiTask.Repositories
 {
     public interface ICarRepository
     {
-        IEnumerable<CarDto> GetAll();
-        public void Add(CarDto car);
-        public void Update(int id, CarDto updatedCar);
+        IEnumerable<Car> GetAll();
+        public void Add(Car car);
+        public void Update(int id, Car updatedCar);
         public void Delete(int id);
 
     }

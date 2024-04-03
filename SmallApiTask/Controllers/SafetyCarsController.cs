@@ -31,14 +31,14 @@ namespace SmallApiTask.Controllers
         }
 
         [HttpPost("AddNewCar")]
-        public IActionResult AddNewCar([FromBody] CarDto car)
+        public IActionResult AddNewCar([FromBody] Car car)
         {
             _carService.AddNewCar(car);
             return Ok();
         }
 
         [HttpPut("UpdateCar")]
-        public IActionResult UpdateCar(int id, [FromBody] CarDto updatedCar)
+        public IActionResult UpdateCar(int id, [FromBody] Car updatedCar)
         {
             _carService.UpdateCar(id, updatedCar);
             return Ok();

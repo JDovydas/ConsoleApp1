@@ -4,6 +4,6 @@ namespace SmallApiTask.Data
 {
     public interface ICarData
     {
-        public List<CarDto> Cars { get; }
+        public List<Car> Cars { get; }
     }
 }

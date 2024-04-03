@@ -4,10 +4,10 @@ namespace SmallApiTask.Services
 {
     public interface ICarService
     {
-        public IEnumerable<CarDto> GetAll();
-        List<CarDto> GetCarsByColor(string color);
-        void AddNewCar(CarDto car);
-        void UpdateCar(int id, CarDto updatedCar);
+        public IEnumerable<Car> GetAll();
+        List<Car> GetCarsByColor(string color);
+        void AddNewCar(Car car);
+        void UpdateCar(int id, Car updatedCar);
         void DeleteCar(int id);
 
     }

@@ -7,41 +7,37 @@ namespace SmallApiTask.Services
     public class CarService : ICarService
     {
 
-        private readonly ICarRepository _carsRepository;
+        private readonly ICarRepository _carRepository;
 
-        public CarService(ICarRepository safetyCarsRepository)
+        public CarService(ICarRepository carRepository)
         {
-            _carsRepository = safetyCarsRepository;
+            _carRepository = carRepository;
+        }
+
+        public IEnumerable<Car> GetAll()
+        {
+            return _carRepository.GetAll().ToList();
+        }
+
+        public List<Car> GetCarsByColor(string color)
+        {
+            return _carRepository.GetAll().Where(c => c.Color == color).ToList();
+        }
+
+        public void AddNewCar(Car car)
+        {
+            _carRepository.Add(car);
         }
 
 
-        public IEnumerable<CarDto> GetAll()
+        public void UpdateCar(int id, Car updatedCar)
         {
-            return _carsRepository.GetAll().ToList();
-        }
-
-        public List<CarDto> GetCarsByColor(string color)
-        {
-            return _carsRepository.GetAll().Where(c => c.Color == color).ToList();
-        }
-
-        public void AddNewCar(CarDto car)
-        {
-            _carsRepository.Add(car);
-        }
-
-
-
-
-        public void UpdateCar(int id, CarDto updatedCar)
-        {
-            _safetyCarsRepository.Update(id, updatedCar);
-
+            _carRepository.Update(id, updatedCar);
         }
 
         public void DeleteCar(int id)
         {
-            _safetyCarsRepository.Delete(id);
+            _carRepository.Delete(id);
         }
 
     }
