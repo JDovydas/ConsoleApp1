@@ -1,0 +1,6 @@
+@SmallApiTaskDb_HostAddress = http://localhost:5147
+
+GET {{SmallApiTaskDb_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
