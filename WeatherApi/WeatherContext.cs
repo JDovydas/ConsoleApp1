@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using WeatherApi.Models;
 using Microsoft.EntityFrameworkCore;
+using WeatherApi.Models;
 
 namespace WeatherApi
 {

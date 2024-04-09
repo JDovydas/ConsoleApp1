@@ -14,11 +14,6 @@ namespace WeatherApi.Repositories
             _context = context;
         }
 
-        //public IEnumerable<Weather> GetAll()
-        //{
-        //    return _context.WeatherModels;
-        //}
-
         public void SaveWeather(Weather weather)
         {
             _context.Weather.Add(weather);

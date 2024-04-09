@@ -1,4 +1,6 @@
 ﻿using Newtonsoft.Json;
+using System.Diagnostics.Metrics;
+using WeatherApi.DTO;
 using WeatherApi.Models;
 using WeatherApi.Repositories;
 
@@ -37,14 +39,20 @@ namespace WeatherApi.Services
                     var jsonString = await response.Content.ReadAsStringAsync(); //Reads the raw JSON response 
                     _logger.LogInformation("Raw JSON response: {jsonString}", jsonString); // Log the raw JSON string received from the API
 
-                    var weatherData = JsonConvert.DeserializeObject<Weather>(jsonString);  // Deserializes JSON response into a Weather object
+                    var weatherDto = JsonConvert.DeserializeObject<WeatherDto>(jsonString);
+                    _logger.LogInformation("Deserialized WeatherDto object: {@weatherDto}", weatherDto);
 
-                    _logger.LogInformation("Deserialized Weather object: {@weatherData}", weatherData); // Logs the deserialized Weather object
 
-                    // Save weather information to the repository
-                    _weatherRepository.SaveWeather(weatherData);
+                    var weather = new Weather
+                    {
+                        Temperature = weatherDto.CurrentConditions.Temp,
+                        Country = weatherDto.ResolvedAddress.Split(',')[2].Trim(),
+                        Region = weatherDto.ResolvedAddress.Split(',')[1].Trim()
+                    };
 
-                    return weatherData;
+                    _weatherRepository.SaveWeather(weather);
+
+                    return weather;
                 }
                 else
                 {
