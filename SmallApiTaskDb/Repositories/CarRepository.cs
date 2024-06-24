@@ -19,7 +19,7 @@ namespace SmallApiTaskDb.Repositories
         {
             if (_context.Cars.Any(p => p.Id == car.Id))
             {
-                throw new Exception("Car with the same ID already exists"); //SameIdException
+                throw new Exception("Car with the same ID already exists"); //SameIdException in database since "Not null" is preset
             }
             if (car == null)
             {
@@ -60,7 +60,7 @@ namespace SmallApiTaskDb.Repositories
 
         public IEnumerable<Car> GetCarsByColor(string color)
         {
-            return _context.Cars.Where(car => car.Color == color).ToList(); 
+            return _context.Cars.Where(car => car.Color == color).ToList();
         }
 
 

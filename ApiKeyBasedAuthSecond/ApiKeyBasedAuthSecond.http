@@ -1,0 +1,6 @@
+@ApiKeyBasedAuthSecond_HostAddress = http://localhost:5128
+
+GET {{ApiKeyBasedAuthSecond_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

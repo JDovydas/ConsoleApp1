@@ -1,9 +1,8 @@
 ﻿using Newtonsoft.Json;
-using System.Diagnostics.Metrics;
 using WeatherApi.DTO;
 using WeatherApi.Models;
 using WeatherApi.Repositories;
-
+// add resharper \
 namespace WeatherApi.Services
 {
     public class WeatherService : IWeatherService

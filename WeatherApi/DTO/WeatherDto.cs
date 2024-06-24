@@ -2,42 +2,6 @@
 
 namespace WeatherApi.DTO
 {
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
-    //public class WeatherDto
-    //{
-
-    //    [JsonProperty("temp")]
-    //    public double Temp { get; set; }
-
-    //}
-    //public class Day
-    //{
-    //    [JsonProperty("datetime")]
-    //    public string Datetime { get; set; }
-
-    //    [JsonProperty("tempmax")]
-    //    public double Tempmax { get; set; }
-
-    //    [JsonProperty("tempmin")]
-    //    public double Tempmin { get; set; }
-
-    //    [JsonProperty("temp")]
-    //    public double Temp { get; set; }
-
-    //}
-
-    //public class Hour
-    //{
-    //    [JsonProperty("datetime")]
-    //    public string Datetime { get; set; }
-
-    //    [JsonProperty("datetimeEpoch")]
-    //    public int DatetimeEpoch { get; set; }
-
-    //    [JsonProperty("temp")]
-    //    public double Temp { get; set; }
-    //}
-
     public class WeatherDto
     {
         [JsonProperty("queryCost")]
